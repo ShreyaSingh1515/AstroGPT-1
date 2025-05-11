@@ -39,7 +39,7 @@ const Body = () => {
           element: <Chat />,
         },
         {
-          path: "/call",
+          path: "/AstroForm",
           element: <Call />,
         },
         {

@@ -40,6 +40,7 @@ export const MULTI_LANG = [
 
 export const OPEN_AI_KEY = process.env.REACT_APP_OPEN_AI_KEY;
 
+
 export const CHAT_BOT = process.env.REACT_APP_BOT_PROMPT;
 
 export const HOROSCOPE = process.env.REACT_APP_HOROSCOPE_PROMPT;

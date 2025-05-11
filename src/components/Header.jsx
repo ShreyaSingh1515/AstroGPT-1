@@ -12,6 +12,8 @@ import { MULTI_LANG } from "../utils/constants";
 import { addBot, addForm, addLang, removeForm } from "../store/configAppSlice";
 import LoginForm from "./LoginForm";
 import lang from "../utils/langConstants";
+import HoroscopeForm from "./HoroscopeForm"; // Make sure the file exists
+import AstroForm from "./AstroForm"; // Make sure the file exists
 
 const Header = () => {
   const user = useSelector((store) => store.user);
@@ -85,11 +87,11 @@ const Header = () => {
           </Link>
         </div>
         <div className="text-white lg:gap-5 gap-5 2xl:gap-8 justify-center items-center hidden lg:flex">
-          <Link to={"/chat"} className={liCSS }>
+          {/* <Link to={"/chat"} className={liCSS }>
             {" "}
             <span >{lang[Langkey].CHAT}</span>
-          </Link>
-          <Link to={"/call"} className={liCSS}>
+          </Link> */}
+          <Link to={"/AstroForm"} className={liCSS}>
             {" "}
             <span >{lang[Langkey].CALL}</span>
           </Link>
